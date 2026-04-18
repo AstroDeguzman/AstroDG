@@ -76,6 +76,22 @@ body {
     width: fit-content;
 }
 
+.lanyard-card {
+    position: relative;
+    display: inline-block;
+}
+
+#typing-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 18px;
+    font-family: monospace;
+    
+}
+
 .container .profileLayout .profileBadges {
     content: attr(data-tooltip);
     margin-bottom: 17px;
